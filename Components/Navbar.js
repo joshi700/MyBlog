@@ -92,7 +92,7 @@ function Navbar({ topics }) {
                     <BiTerminal className="text-xl" />
                   </span>
                   <span className="mx-1 font-semibold text-base md:text-base">
-                    Latest
+                    Home
                   </span>
                 </a>
               </Link>
