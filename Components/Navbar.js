@@ -13,6 +13,7 @@ import { SiCodefactor } from "react-icons/si";
 import { IoMdArrowDropdown } from "react-icons/io";
 import Alert from "./Alert";
 import { useDispatch } from "react-redux";
+import { GiCaptainHatProfile } from "react-icons/gi";
 
 function Navbar({ topics }) {
   const [isMounted, setIsMounted] = useState(false);
@@ -97,18 +98,7 @@ function Navbar({ topics }) {
                 </a>
               </Link>
 
-              <div className="dropdown inline-block relative mx-2">
-              <Link href="https://gj-portfolio-orcin.vercel.app/">
-                <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50">
-                  <span className="text-xl font-semibold">
-                    <BiTerminal className="text-xl" />
-                  </span>
-                  <span className="mx-1 font-semibold text-base md:text-base">
-                    Profile
-                  </span>
-                </a>
-              </Link>
-            </div>
+
 
               <div className="dropdown inline-block relative mx-2">
                 <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50 mx-6 cursor-pointer">
@@ -135,6 +125,23 @@ function Navbar({ topics }) {
                   ))}
                 </ul>
               </div>
+            
+            <div className="dropdown inline-block relative mx-2">
+              <Link href="https://gj-portfolio-orcin.vercel.app/">
+              
+                <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50">
+                  <span className="text-xl font-semibold">
+                    <GiCaptainHatProfile className="text-xl"/>
+                  </span>
+                  <span className="mx-1 font-semibold text-base md:text-base">
+                    My Website - Profile
+                  </span>
+                </a>
+              
+              
+              </Link>
+            </div>
+                    
             </div>
 
             {/* <div className="flex items-center -mx-3">
