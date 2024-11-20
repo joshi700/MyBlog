@@ -97,7 +97,8 @@ function Navbar({ topics }) {
                 </a>
               </Link>
 
-                  <Link href="/">
+              <div className="dropdown inline-block relative mx-2">
+              <Link href="https://gj-portfolio-orcin.vercel.app/">
                 <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50">
                   <span className="text-xl font-semibold">
                     <BiTerminal className="text-xl" />
@@ -107,6 +108,7 @@ function Navbar({ topics }) {
                   </span>
                 </a>
               </Link>
+            </div>
 
               <div className="dropdown inline-block relative mx-2">
                 <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50 mx-6 cursor-pointer">
