@@ -97,6 +97,17 @@ function Navbar({ topics }) {
                 </a>
               </Link>
 
+                  <Link href="/">
+                <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50">
+                  <span className="text-xl font-semibold">
+                    <BiTerminal className="text-xl" />
+                  </span>
+                  <span className="mx-1 font-semibold text-base md:text-base">
+                    Profile
+                  </span>
+                </a>
+              </Link>
+
               <div className="dropdown inline-block relative mx-2">
                 <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50 mx-6 cursor-pointer">
                   <span className="text-xl font-semibold">
