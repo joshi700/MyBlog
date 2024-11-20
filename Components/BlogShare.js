@@ -12,8 +12,8 @@ function BlogShare({ data }) {
             target="_blank"
             href={`https://x.com/intent/tweet?text=${
               data.Title
-            } by @soumyajit4419
-            &url=blogs.soumya-jit.tech/blogs/${String(
+            } by @gauravjoshi700
+            &url=my-blog-wheat-iota.vercel.app/blogs/${String(
               data.Title.split(" ").join("-").toLowerCase()
             )}
             &hashtags=${data.Tags.split(" ")}`}
