@@ -134,7 +134,7 @@ function Navbar({ topics }) {
                     <GiCaptainHatProfile className="text-xl"/>
                   </span>
                   <span className="mx-1 font-semibold text-base md:text-base">
-                    My Website - Profile
+                    My Website
                   </span>
                 </a>
               
